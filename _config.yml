@@ -59,3 +59,5 @@ title: 4lch4's Cheat Sheets
 # https://help.github.com/articles/repository-metadata-on-github-pages/
 
 repository: 4lch4/cheatsheets
+
+theme: jekyll-theme-time-machine
