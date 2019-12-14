@@ -1,7 +1,9 @@
 home:
   title: "4lch4's cheatsheets"
   tagline: |
-    Hey! I'm <a href='https://twitter.com/4lch4'>@4lch4</a>, A.K.A Alcha, and this is a collection of cheatsheets I've found useful.
+    Hey! I'm <a href='https://twitter.com/4lch4'>@4lch4</a>, Alcha, and this is a fork of the
+    rstacruz/cheatsheets project with my own additions of cheatsheets I've written or found useful
+    over the years.
 
 top_nav:
   title: hints.4lch4.com
