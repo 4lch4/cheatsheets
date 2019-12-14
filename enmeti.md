@@ -14,14 +14,14 @@ tags:
 ## Defaults
 {: .-two-column}
 
-## Default Keybindings
+### Default Keybindings
 
 | Key Binding          | Action       |
 |:---------------------|--------------|
 | **Ctrl + Shift + I** | Insert Link  |
 | **Ctrl + Alt + I**   | Insert Image |
 
-## Default Settings
+### Default Settings
 
 | Setting Name                    | Value   |
 |:--------------------------------|---------|
