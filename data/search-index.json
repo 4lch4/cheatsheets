@@ -2,7 +2,7 @@
 layout: blank
 type: other
 ---
-{% assign pages = site.sheets
+{% assign pages = site.pages
   | where_exp: "page", 'page.type == "article"'
 %}[
 {% for page in pages

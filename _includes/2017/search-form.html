@@ -11,7 +11,7 @@
         autofocus data-js-search-input
         placeholder='{{ placeholder }}'
       {% else %}
-        {% assign size = site.sheets | size %}
+        {% assign size = site.pages | size %}
         {% assign placeholder = site.data.content.search_form.default_placeholder | replace: "SIZE", size %}
         placeholder='{{ placeholder }}'
       {% endif %}>

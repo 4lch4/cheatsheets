@@ -226,7 +226,7 @@ See: [Variables](http://jekyllrb.com/docs/variables/)
 {: .-setup}
 
 | `site.time` | Current time |
-| `site.sheets` | List of pages |
+| `site.pages` | List of pages |
 | `site.posts` | List of blog posts |
 | `site.related_posts` | List of posts related to current |
 | `site.categories.CATEGORY` | List |
@@ -293,7 +293,7 @@ Filters
 ### Array filters
 
 ```ruby
-{{ site.sheets | where: "year", "2014" }}
+{{ site.pages | where: "year", "2014" }}
 ```
 {: .-setup}
 
