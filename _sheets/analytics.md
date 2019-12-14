@@ -1,5 +1,6 @@
 ---
 title: Analytics libraries
+permalink: /analytics/
 layout: 2017/sheet
 category: Analytics
 ---

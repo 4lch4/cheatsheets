@@ -1,5 +1,6 @@
 ---
 title: Angular.js
+permalink: /angular/
 category: JavaScript libraries
 ---
 ```html

@@ -1,5 +1,6 @@
 ---
 title: Animated GIFs
+permalink: /gifs/
 category: CLI
 layout: 2017/sheet
 ---

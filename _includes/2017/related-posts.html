@@ -1,16 +1,16 @@
-{% assign category_pages = site.pages
+{% assign category_pages = site.sheets
   | where: "category", include.page.category
   | where_exp: "page", "page.url != include.page.url"
   | where_exp: "page", "page.deprecated != true"
   | where_exp: "page", "page.redirect_to == null"
   | sort: "weight", "last"
 %}
-{% assign top_pages = site.pages
+{% assign top_pages = site.sheets
   | where_exp: "page", "page.url != include.page.url"
   | where_exp: "page", "page.deprecated != true"
   | sort: "weight", "last"
 %}
-{% assign size = site.pages | size %}
+{% assign size = site.sheets | size %}
 <footer class='related-posts-area' id='related' data-js-no-preview>
   <div class='container'>
     <div class='related-posts-section'>

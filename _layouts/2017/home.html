@@ -1,10 +1,10 @@
 <!doctype html>
 <html class='NoJs' lang='en'><head>
 
-{% assign featured_pages = site.pages
+{% assign featured_pages = site.sheets
   | where_exp: "page", "page.tags contains 'Featured'"
 %}
-{% assign recent_pages = site.pages
+{% assign recent_pages = site.sheets
   | where_exp: "page", "page.updated"
   | sort: "updated", "first"
 %}
@@ -47,7 +47,7 @@
         <span>{{ category }}</span>
       </h2>
 
-      {% for page in site.pages %}
+      {% for page in site.sheets %}
         {% if page.category == category %}
           {% if page.title %}
             {% include 2017/pages-list-item.html page=page class='article item' %}

@@ -38,11 +38,6 @@ kramdown:
 
 # Defaults
 
-collections:
-  sheets:
-    # output: true
-    permalink: /:name
-
 defaults:
   - scope:
       path: ""
