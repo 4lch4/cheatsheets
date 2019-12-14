@@ -40,7 +40,7 @@ kramdown:
 
 collections:
   sheets:
-    output: true
+    # output: true
     permalink: /:name
 
 defaults:
