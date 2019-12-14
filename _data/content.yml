@@ -44,8 +44,6 @@ not_found:
 
 announcement:
   id: 2017-10-26-twitter
-  title: |
-    New: I'm on Twitter ♥️
-  body: |
-    Follow [@4lch4](https://twitter.com/4lch4) on Twitter for tweets, sometimes.
+  title: Welcome to DasHints!
+  body: This is a new project, that was forked from rstacruz/devhints.
 
