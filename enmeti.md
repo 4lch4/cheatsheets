@@ -11,7 +11,6 @@ intro: |
   Markdown files.
 tags:
   - Visual Studio Code
-  - Extensions
   - Markdown
 ---
 
