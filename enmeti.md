@@ -2,7 +2,6 @@
 title: Enmeti
 layout: 2017/sheet
 category: Extensions
-weight: -10
 updated: 2019-12-13
 intro: |
   Enmeti is my Visual Studio Code extension for inserting links/images into
@@ -10,6 +9,7 @@ intro: |
 tags:
   - Visual Studio Code
   - Markdown
+  - Featured
 ---
 
 ## Defaults
