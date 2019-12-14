@@ -1,6 +1,5 @@
 ---
 title: adb (Android Debug Bridge)
-permalink: /adb/
 category: CLI
 layout: 2017/sheet
 weight: -1

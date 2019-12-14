@@ -1,6 +1,5 @@
 ---
 title: Absinthe
-permalink: /absinthe/
 category: Hidden
 layout: 2017/sheet
 tags: [WIP]
