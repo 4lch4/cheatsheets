@@ -4,6 +4,13 @@
   "main": "index.js",
   "repository": "https://github.com/rstacruz/cheatsheets.git",
   "author": "Rico Sta. Cruz <rstacruz@users.noreply.github.com>",
+  "contributors": [
+    {
+      "email": "hello@4lch4.com",
+      "name": "4lch4",
+      "url": "https://4lch4.com"
+    }
+  ],
   "license": "MIT",
   "devDependencies": {
     "babel-core": "6.26.0",

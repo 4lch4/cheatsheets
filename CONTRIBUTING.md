@@ -13,7 +13,6 @@ To preview the website you need to first build it then you can navigate to file 
 
 <img src='_docs/images/gitpod_preview_tut.png' width=828 height=459/>
 
-
 ## Starting a local instance
 
 This starts Jekyll and Webpack. This requires recent versions of [Node.js], [Yarn], [Ruby] and [Bundler] installed.
