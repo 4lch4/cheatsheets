@@ -1,6 +1,6 @@
 {
-  "name": "cheatsheets",
-  "version": "1.0.0",
+  "name": "dashints",
+  "displayName": "DasHints",
   "main": "index.js",
   "repository": "https://github.com/rstacruz/cheatsheets.git",
   "author": "Rico Sta. Cruz <rstacruz@users.noreply.github.com>",
