@@ -13,8 +13,6 @@ description: |
 
 ##
 
-{: .-three-column}
-
 ### Character classes
 
 | Pattern  | Description                          |
