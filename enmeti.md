@@ -7,9 +7,10 @@ intro: |
   Enmeti is my Visual Studio Code extension for inserting links/images into
   Markdown files.
 tags:
+  - Featured
+keywords:
   - Visual Studio Code
   - Markdown
-  - Featured
 ---
 
 ## Defaults
