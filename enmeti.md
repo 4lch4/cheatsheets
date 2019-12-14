@@ -1,7 +1,6 @@
 ---
 title: Enmeti
 layout: 2017/sheet
-
 category: Extensions
 updated: 2019-12-13
 intro: |
@@ -11,6 +10,9 @@ tags:
   - Visual Studio Code
   - Markdown
 ---
+
+## Defaults
+{: .-two-column}
 
 ## Default Keybindings
 
