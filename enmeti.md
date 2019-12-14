@@ -12,8 +12,6 @@ tags:
   - Markdown
 ---
 
-{: .-two-column}
-
 ## Default Keybindings
 
 | Key Binding          | Action       |
