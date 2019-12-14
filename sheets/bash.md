@@ -2,7 +2,6 @@
 title: Bash scripting
 category: CLI
 layout: 2017/sheet
-permalink: /bash
 tags: [Featured]
 updated: 2019-10-02
 keywords:
