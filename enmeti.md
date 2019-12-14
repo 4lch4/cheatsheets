@@ -4,7 +4,6 @@ layout: 2017/sheet
 
 category: Extensions
 updated: 2019-12-13
-weight: -10
 intro: |
   Enmeti is my Visual Studio Code extension for inserting links/images into
   Markdown files.
