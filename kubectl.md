@@ -11,25 +11,25 @@ tags:
   - Kubernetes
 ---
 
-# Introduction
+## Initial Config
 
-## Autocomplete
+### Autocomplete
 
-- Bash:
+#### Bash
   
   ```bash
   source <(kubectl completion bash) # setup autocomplete in bash into the current shell, bash-completion package should be installed first.
   echo "source <(kubectl completion bash)" >> ~/.bashrc # add autocomplete permanently to your bash shell.
   ```
 
-- Zsh:
+#### Zsh
   
   ```bash
   alias k=kubectl
   complete -F __start_kubectl k
   ```
 
-## Context and Configuration
+### Context and Configuration
 
 ```bash
 kubectl config view # Show Merged kubeconfig settings.
