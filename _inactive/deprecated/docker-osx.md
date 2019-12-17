@@ -1,6 +1,6 @@
 ---
 title: Docker on OSX
-category: Devops
+category: DevOps
 ---
 
 You'll need these:

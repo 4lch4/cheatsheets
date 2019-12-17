@@ -1,6 +1,6 @@
 ---
 title: Docker CLI
-category: Devops
+category: DevOps
 layout: 2017/sheet
 ---
 
@@ -16,7 +16,6 @@ docker build [options] .
 
 Create an `image` from a Dockerfile.
 
-
 ### `docker run`
 
 ```yml
@@ -29,6 +28,7 @@ docker run [options] IMAGE
 ```
 $ docker run -it debian:buster /bin/bash
 ```
+
 Run a command in an `image`.
 
 Manage containers

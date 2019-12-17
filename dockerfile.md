@@ -1,6 +1,6 @@
 ---
 title: Dockerfile
-category: Devops
+category: DevOps
 layout: 2017/sheet
 prism_languages: [docker]
 updated: 2018-03-17

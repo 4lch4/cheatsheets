@@ -1,6 +1,6 @@
 ---
 title: AWS CLI
-category: Devops
+category: DevOps
 layout: 2017/sheet
 ---
 
