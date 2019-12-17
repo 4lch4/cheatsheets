@@ -1,5 +1,6 @@
 ---
 title: Command line stuff
+category: CLI
 ---
 
 ## List (ls)
@@ -8,16 +9,16 @@ title: Command line stuff
 
 ### Format
 
-| Switch | Description |
-|---|---|
-| `-1` | One entry per line |
-| `-l` | Long view |
-| `-o` | Long view (without groups) |
-| `-C` | Multicolumn (sorted horizontally) |
-| `-x` | Multicolumn (sorted vertically) |
-|---
-| `-F` | Add / after directories |
-| `-G` | Color |
+| Switch | Description             |
+|:------:|-------------------------|
+|  `-1`  | One entry per line      |
+|  `-l`  | Long view               |
+|  `-o`  | Long view (without groups) |
+|  `-C`  | Multicolumn (sorted horizontally) |
+|  `-x`  | Multicolumn (sorted vertically) |
+|  ---   |
+|  `-F`  | Add / after directories |
+|  `-G`  | Color                   |
 {:.shortcuts}
 
 ### Options
@@ -29,16 +30,16 @@ title: Command line stuff
 
 ### Sorting
 
-| Switch | Description |
-|---|---|
-| `-r` | reverse order |
-| `-S` | sort by size |
-| `-t` | sort by time modified |
-| `-u` | sort by time accessed |
-| `-U` | sort by time created |
-| `-c` | sort by time status was changed |
-|---
-| `-h` | Human-readable size (3k) |
+| Switch | Description              |
+|:------:|--------------------------|
+|  `-r`  | reverse order            |
+|  `-S`  | sort by size             |
+|  `-t`  | sort by time modified    |
+|  `-u`  | sort by time accessed    |
+|  `-U`  | sort by time created     |
+|  `-c`  | sort by time status was changed |
+|  ---   |
+|  `-h`  | Human-readable size (3k) |
 {:.shortcuts}
 
 <br>
@@ -49,17 +50,21 @@ title: Command line stuff
 
 ### Modes
 
-| `-f` | follow |
-| `-F` | follow by filename (accounts for log rotation) |
-| `-r` | Reverse order |
+| Switch | Description                                    |
+|:------:|------------------------------------------------|
+|  `-f`  | follow                                         |
+|  `-F`  | follow by filename (accounts for log rotation) |
+|  `-r`  | Reverse order                                  |
 {:.shortcuts}
 
 ### Options
 
-| `-bN` | N*512 bytes |
-| `-cN` | N bytes |
-| `-nN` | N lines |
-| `+N`  | Start from line N |
+| Switch | Description       |
+|:------:|-------------------|
+| `-bN`  | N*512 bytes       |
+| `-cN`  | N bytes           |
+| `-nN`  | N lines           |
+|  `+N`  | Start from line N |
 {:.shortcuts}
 
 <br>
@@ -77,13 +82,15 @@ sudo [options] <command>
 
 ### Options
 
-| `-A` | Use $SUDO_ASKPASS |
-| `-b` | Run in background |
-| `-E` | Preserve environment |
-| `-H` | use target's $HOME |
-| `-n` | Don't prompt for password |
-| `-P` | Preserve group vector |
-| `-S` | Read password from stdin |
+| Switch | Description               |
+|:------:|---------------------------|
+|  `-A`  | Use $SUDO_ASKPASS         |
+|  `-b`  | Run in background         |
+|  `-E`  | Preserve environment      |
+|  `-H`  | use target's $HOME        |
+|  `-n`  | Don't prompt for password |
+|  `-P`  | Preserve group vector     |
+|  `-S`  | Read password from stdin  |
 {:.shortcuts}
 
 ### File descriptors
@@ -98,20 +105,22 @@ sudo [options] <command>
 
 ### Interactive
 
-| Switch | Description |
-|---|---|
+| Switch     | Description       |
+|------------|-------------------|
 | `-i [cmd]` | Interactive shell without variables |
 | `-s [cmd]` | Interactive shell |
-|----
-| `-u user` | run as this user |
+| ----       |
+| `-u user`  | run as this user  |
 | `-g group` | run as this group |
 {:.shortcuts}
 
 ### Timestamp
 
-| `-v` | revalidate timestamp for 5 mins |
-| `-k` | invalidate timestamp |
-| `-K` | just like -k |
+| Switch | Description                     |
+|:------:|---------------------------------|
+|  `-v`  | revalidate timestamp for 5 mins |
+|  `-k`  | invalidate timestamp            |
+|  `-K`  | just like -k                    |
 {:.shortcuts}
 
 <br>
@@ -122,10 +131,12 @@ sudo [options] <command>
 ... | wc [options]
 ```
 
-| `-c` | Bytes |
-| `-l` | Lines |
-| `-m` | Characters (incl multi-byte) |
-| `-w` | Words |
+| Switch | Description                  |
+|:------:|------------------------------|
+|  `-c`  | Bytes                        |
+|  `-l`  | Lines                        |
+|  `-m`  | Characters (incl multi-byte) |
+|  `-w`  | Words                        |
 {:.shortcuts}
 
 <br>
@@ -144,26 +155,26 @@ grep [options] [pattern] [file ...]
 
 ### Options
 
-| Switch | Description |
-|---|---|
-| `-A num` | Print `num` lines of training context |
-|----
-| `-G` | --basic-regexp (default) |
-| `-E` | --extended-regexp |
-| `-P` | --perl-regexp |
-|----
+| Switch    | Description    |
+|-----------|----------------|
+| `-A num`  | Print `num` lines of training context |
+| ----      |
+| `-G`      | --basic-regexp (default) |
+| `-E`      | --extended-regexp |
+| `-P`      | --perl-regexp  |
+| ----      |
 | `-f file` | --file (Get patterns for file) |
-| `-F` | --fixed-strings |
-|----
-| `-h` | --no-filename |
-| `-H` | --with-filename |
-|----
-| `-l` | --files-with-matches (just print filenames) |
-| `-L` | --files-without-match |
-|----
-| `-r, -R` | --recursive |
-| `-v` | --invert-match |
-| `-i` | --ignore-case |
+| `-F`      | --fixed-strings |
+| ----      |
+| `-h`      | --no-filename  |
+| `-H`      | --with-filename |
+| ----      |
+| `-l`      | --files-with-matches (just print filenames) |
+| `-L`      | --files-without-match |
+| ----      |
+| `-r, -R`  | --recursive    |
+| `-v`      | --invert-match |
+| `-i`      | --ignore-case  |
 {:.shortcuts}
 
 ### Synonyms

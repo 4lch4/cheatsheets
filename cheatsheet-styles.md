@@ -4,9 +4,9 @@ layout: 2017/sheet
 tags: [WIP]
 updated: 2017-09-22
 intro: |
-  This is a reference of styles that you can use on Devhints cheatsheets. How
+  This is a reference of styles that you can use on DasHints cheatsheets. How
   meta!
-  You can refer to this when contributing your own cheatsheets to the [GitHub repo](https://github.com/rstacruz/cheatsheets/).
+  You can refer to this when contributing your own cheatsheets to the [GitHub repo](https://github.com/4lch4/dashints/).
 ---
 
 Intro

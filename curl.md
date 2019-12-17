@@ -27,8 +27,8 @@ updated: 2017-09-20
 ### Request
 
 ```bash
--X POST          # --request
--L               # follow link if page redirects 
+-X POST      # --request
+-L           # follow link if page redirects
 ```
 
 ### Data

@@ -2,101 +2,34 @@
 title: Code badges
 ---
 
-Here are some badges for open source projects.
+Here are the primary badges to be used across my projects.
 
-### Badge markdown
+## General
 
-    Travis
-    [![Status](https://travis-ci.org/rstacruz/REPO.svg?branch=master)](https://travis-ci.org/rstacruz/REPO)  
+- StandardJS
+  - [![Standard-Js](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com/)
+  - `[![Standard-Js](https://img.shields.io/badge/code_style-standard-brightgreen.svg?style=flat-square)](https://standardjs.com/)`
+- Fuck it, ship it
+  - [![ForTheBadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)
+  - `[![ForTheBadge](https://forthebadge.com/images/badges/fuck-it-ship-it.svg)](https://forthebadge.com)`
+- [For The Badge][0] - The greatest collection of pointless badges. I mean, look at some of these:
+  - [![ForTheBadge](https://forthebadge.com/images/badges/built-by-neckbeards.svg)](https://forthebadge.com)
+  - [![ForTheBadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+  - [![ForTheBadge](https://forthebadge.com/images/badges/oooo-kill-em.svg)](https://forthebadge.com)
+  - [![ForTheBadge](https://forthebadge.com/images/badges/gluten-free.svg)](https://forthebadge.com)
+  - [![ForTheBadge](https://forthebadge.com/images/badges/designed-in-etch-a-sketch.svg)](https://forthebadge.com)
 
-    CodeClimate (shields.io)
-    [![CodeClimate](http://img.shields.io/codeclimate/github/rstacruz/REPO.svg?style=flat)](https://codeclimate.com/github/rstacruz/REPO 
-    "CodeClimate")
+## Dynamic
 
-    Coveralls (shields.io)
-    [![Coveralls](http://img.shields.io/coveralls/rstacruz/REPO.svg?style=flat)](https://coveralls.io/r/rstacruz/REPO)
-
-    Travis (shields.io)
-    [![Status](http://img.shields.io/travis/rstacruz/REPO/master.svg?style=flat)](https://travis-ci.org/rstacruz/REPO "See test builds")
-
-    NPM (shields.io)
-    [![npm version](http://img.shields.io/npm/v/REPO.svg?style=flat)](https://npmjs.org/package/REPO "View this project on npm")
-
-    Ruby gem (shields.io)
-    [![Gem](https://img.shields.io/gem/v/GEMNAME.svg?style=flat)](http://rubygems.org/gems/GEMNAME "View this project in Rubygems")
+- Codacy
+  - The easiest way to get a badge for Codacy is to [set up the project][1] in Codacy, and go to the project settings (`https://app.codacy.com/manual/4lch4/<ProjectName Here>/settings`).
+  - [![Codacy Badge](https://api.codacy.com/project/badge/Grade/78b7e6d1f9214e7a870cd4d96f3ebf53)](https://www.codacy.com/manual/4lch4/Rinzler?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=4lch4/Rinzler&amp;utm_campaign=Badge_Grade)
+  - `[![Codacy Badge](https://api.codacy.com/project/badge/Grade/78b7e6d1f9214e7a870cd4d96f3ebf53)](https://www.codacy.com/manual/4lch4/Rinzler?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=4lch4/Rinzler&amp;utm_campaign=Badge_Grade)`
 
 ### Etc
-
-    Gitter chat
-    [![Gitter chat](https://badges.gitter.im/USER/REPO.png)](https://gitter.im/USER/REPO "Gitter chat")
-
-    Gitter chat (shields.io)
-    [![Chat](http://img.shields.io/badge/gitter-USER / REPO-blue.svg)]( https://gitter.im/USER/REPO )
 
     david-dm
     [![Dependencies](http://img.shields.io/david/rstacruz/REPO.svg?style=flat)](https://david-dm.org/rstacruz/REPO)
 
-[![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
-
-    [![MIT license](http://img.shields.io/badge/license-MIT-brightgreen.svg)](http://opensource.org/licenses/MIT)
-
-### Support stuff
-
-    Support
-    -------
-
-    __Bugs and requests__: submit them through the project's issues tracker.<br>
-    [![Issues](http://img.shields.io/github/issues/USER/REPO.svg)]( https://github.com/USER/REPO/issues )
-
-    __Questions__: ask them at StackOverflow with the tag *REPO*.<br>
-    [![StackOverflow](http://img.shields.io/badge/stackoverflow-REPO-blue.svg)]( http://stackoverflow.com/questions/tagged/REPO )
-
-    __Chat__: join us at gitter.im.<br>
-    [![Chat](http://img.shields.io/badge/gitter.im-USER/REPO-blue.svg)]( https://gitter.im/USER/REPO )
-
-### Frontend js installation
-
-    Installation
-    ------------
-
-    Add [nprogress.js] and [nprogress.css] to your project.
-
-    ```html
-    <script src='nprogress.js'></script>
-    <link rel='stylesheet' href='nprogress.css'/>
-    ```
-
-    NProgress is available via [bower] and [npm].
-
-        $ bower install --save nprogress
-        $ npm install --save nprogress
-
-    [bower]: http://bower.io/search/?q=nprogress
-    [npm]: https://www.npmjs.org/package/nprogress
-
-### Acknowledgements
-
-    **PROJECTNAME** © 2014+, Rico Sta. Cruz. Released under the [MIT] License.<br>
-    Authored and maintained by Rico Sta. Cruz with help from contributors ([list][contributors]).
-
-    > [ricostacruz.com](http://ricostacruz.com) &nbsp;&middot;&nbsp;
-    > GitHub [@rstacruz](https://github.com/rstacruz) &nbsp;&middot;&nbsp;
-    > Twitter [@rstacruz](https://twitter.com/rstacruz)
-
-    [MIT]: http://mit-license.org/
-    [contributors]: http://github.com/rstacruz/nprogress/contributors
-
-### Links
-
- * Everything: http://shields.io/
-
- * Version badge (gems, npm): http://badge.fury.io/
-
- * Dependencies (ruby): http://gemnasium.com/
-
- * CI: http://travis-ci.org/
-
- * Code quality (ruby): http://codeclimate.com/
-
- * Test coverage: https://coveralls.io/
-
+[0]: https://forthebadge.com/
+[1]: https://app.codacy.com/wizard/projects
