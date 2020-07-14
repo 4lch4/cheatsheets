@@ -19,7 +19,7 @@
     "babel-jest": "21.2.0",
     "babel-loader": "7.1.2",
     "babel-preset-env": "1.6.0",
-    "concurrently": "3.5.0",
+    "concurrently": "3.6.1",
     "css-loader": "0.28.7",
     "eslint-plugin-flowtype": "2.37.0",
     "jest": "21.2.1",
