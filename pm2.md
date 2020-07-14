@@ -73,6 +73,8 @@ updated: 2020-07-14
 
 ## Ecosystem File
 
+### Overview
+
 The ecosystem file tells PM2 how to run/manage your application to simplify working with it. The file by default is called `ecosystem.config.js`, but it can be called anything so long as it ends with `.config.extension`. It also supports JSON and YAML formats:
 
 | Format     | Filename                |
@@ -127,14 +129,25 @@ module.exports = {
 
 #### Manage All At Once
 
-| Command                                           | Description                                                           |
-|---------------------------------------------------|-----------------------------------------------------------------------|
-| `pm2 start ecosystem.config.js`                   | Start all applications in file, if already running, they're restarted |
-| `pm2 start ecosystem.config.js --only worker-app` | Only start the app named worker-app                                   |
-| `pm2 stop ecosystem.config.js`                    | Stops all applications in file                                        |
-| `pm2 restart ecosystem.config.js`                 | Restarts all applications in the file                                 |
-| `pm2 reload ecosystem.config.js`                  | Reload all applications in the file                                   |
-| `pm2 delete ecosystem.config.js`                  | Deletes all applications in the file                                  |
+```bash
+# Start all applications in file, if already running, they're restarted
+pm2 start ecosystem.config.js
+
+# Only start the app named worker-app
+pm2 start ecosystem.config.js --only worker-app
+
+# Stops all applications in file
+pm2 stop ecosystem.config.js
+
+# Restarts all applications in the file
+pm2 restart ecosystem.config.js
+
+# Reload all applications in the file
+pm2 reload ecosystem.config.js
+
+# Deletes all applications in the file
+pm2 delete ecosystem.config.js
+```
 
 #### Manage Specific Applications
 
@@ -150,7 +163,10 @@ pm2 start ecosystem.config.js --only "api-app,worker-app"
 
 #### Switching Environments
 
-| Command                                          | Description                                                 |
-|--------------------------------------------------|-------------------------------------------------------------|
-| `pm2 start ecosystem.config.js --env production` | Start the app using the variables defined in env_production |
-| `pm2 start ecosystem.config.js --env staging`    | Restart the app using the variables defined in env_staging  |
+```bash
+# Start the app using the variables defined in env_production
+pm2 start ecosystem.config.js --env production
+
+# Restart the app using the variables defined in env_staging
+pm2 start ecosystem.config.js --env staging
+```
