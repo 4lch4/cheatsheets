@@ -6,7 +6,7 @@ authors: { github: "4lch4" }
 updated: 2020-07-14
 ---
 
-## CLI
+## Basic CLI Usage
 
 ### Fork mode
 
