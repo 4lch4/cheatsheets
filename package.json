@@ -28,7 +28,7 @@
     "standard": "14.3.4",
     "style-loader": "1.2.1",
     "uglifyjs-webpack-plugin": "2.2.0",
-    "webpack": "4.43.0"
+    "webpack": "4.44.0"
   },
   "scripts": {
     "critical": "make critical",
