@@ -2,14 +2,12 @@
 
 > TL;DR for developer documentation - a ridiculous collection of cheatsheets
 
-[![Status](https://travis-ci.org/rstacruz/cheatsheets.svg?branch=master)](https://travis-ci.org/rstacruz/cheatsheets "See test builds")
-
 <br>
 
 <p align='center'>
-<a href='https://dashints.io/'><img src='_docs/images/screenshot.png' width=600></a>
+<a href='https://dashints.dev/'><img src='_docs/images/screenshot.png' width=600></a>
 <br>
-✨ <b><a href='https://dashints.io/'>dashints.io</a></b> ✨
+✨ <b><a href='https://dashints.dev/'>dashints.io</a></b> ✨
 </p>
 
 <br>
@@ -18,4 +16,4 @@
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for developer notes.
 
-[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/rstacruz/cheatsheets)
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/4lch4/cheatsheets)
