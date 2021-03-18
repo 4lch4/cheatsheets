@@ -7,7 +7,7 @@
 <p align='center'>
 <a href='https://dashints.dev/'><img src='_docs/images/screenshot.png' width=600></a>
 <br>
-✨ <b><a href='https://dashints.dev/'>dashints.io</a></b> ✨
+✨ <b><a href='https://dashints.dev/'>dashints.dev</a></b> ✨
 </p>
 
 <br>
