@@ -1,3 +1,14 @@
+---
+title: Dhall
+category: Config
+layout: 2017/sheet
+tags: [Featured]
+updated: 2021-04-26
+intro: |
+  [Dhall](https://dhall-lang.org/) is a programmable configuration language
+  that you can think of as: JSON + functions + types + imports.
+---
+
 # Cheatsheet
 
 > Ramp up quickly with a cheat sheet if you're already familiar with functional programming
@@ -333,3 +344,7 @@
 
     let x {- block comments can appear inside of expressions like whitespace -} = 1 in x
     ```
+
+## Copyright/Licensing
+
+© Copyright 2021, Dhall Contributors
